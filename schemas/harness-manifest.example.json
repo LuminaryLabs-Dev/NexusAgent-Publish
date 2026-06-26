@@ -1,0 +1,18 @@
+{
+  "harnesses": [
+    {
+      "name": "simple",
+      "kind": "linear-file-aware-loop",
+      "path": "harnesses/simple",
+      "safe_default": "manual",
+      "proof": "run ledger plus validation note"
+    },
+    {
+      "name": "lite",
+      "kind": "compact-action-loop",
+      "path": "harnesses/lite",
+      "safe_default": "manual",
+      "proof": "run ledger plus explicit action evidence"
+    }
+  ]
+}
