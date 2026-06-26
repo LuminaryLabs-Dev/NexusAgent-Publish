@@ -1,0 +1,69 @@
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.*
+!.env.example
+
+# Node / Web
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.next/
+out/
+dist/
+
+# Rust
+target/
+
+# NexusAgent runtime artifacts
+outputs/
+**/outputs/
+runs/
+**/runs/
+workspaces/
+**/workspaces/
+artifacts/
+**/artifacts/
+sandboxes/
+**/sandboxes/
+TestOutputs/
+logs/
+*.sqlite
+*.db
+*.cache
+
+# Private/internal operating memory
+.agent/
+state/
+memory.md
+.scratchpad/
+**/.scratchpad/
+
+# Credentials & local config
+.python-version
+sitecustomize.py
+runtime_config.json
